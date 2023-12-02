@@ -1,0 +1,70 @@
+:root{
+    --color_principal: #000000;
+    --color_secundary: #B8A895;
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url(../css/fonts/Montserrat_Alternates/MontserratAlternates-Italic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Playfair Display";
+    src: url(../css/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header{
+    display: block;
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/header.jpg);
+}
+.nav_menu{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+
+}
+.logo{
+    margin: 10px;
+}
+.menu{
+    height: 30px;
+    margin: 15px;
+}
+.section1{
+    display: block;
+    width: 100%;
+    height: 1000px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid white; 
+}
+
+.phrase{
+    font-family: Montserrat;
+    color: white;
+    font-size: 24px;
+    
+}
+.coaching{
+    display: flex;
+    
+    font-family: Playfair Display;
+    color: var(--color_secundary);
+    font-style: italic;
+    font-size: 280px;
+
+}
+
